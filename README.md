@@ -1,4 +1,9 @@
-to- 👋 geospatial Data science 
+to- 👋 geospatial Data science#### 6. **Handling Raster Data**
+```python
+import rasterio
+
+with rasterio.open('data/satellite.tif') as src:
+    band = src.read(1)
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
